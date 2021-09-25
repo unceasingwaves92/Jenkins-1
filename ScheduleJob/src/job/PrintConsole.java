@@ -6,7 +6,7 @@ public class PrintConsole {
 		
 		System.out.println("Hurray, the second Jenkins Job");
 		
-		System.out.println("Poll scm trigger2");
+		System.out.println("Poll scm trigger3");
 
 	}
 
