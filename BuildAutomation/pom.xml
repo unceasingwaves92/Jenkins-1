@@ -55,12 +55,13 @@
 
 <distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>file:///E:/Devops Bootcamp/karthik/mavenrepo</url>
-      <layout>default</layout>
-    </repository>
+     <id>releases</id>
+         <url>file:///E:/Devops Bootcamp/karthik/mavenrepo</url>
+     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>file:///E:/Devops Bootcamp/karthik/mavenrepo</url>
+    </snapshotRepository>
     
 </distributionManagement>
 	</build>
