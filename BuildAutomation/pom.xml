@@ -44,7 +44,7 @@
 			</plugins>
 		</pluginManagement>
 		
-		<pluginManagement>
+		
 <plugins>
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
@@ -52,7 +52,7 @@
 <version>3.0.0-M1</version>
 </plugin>
 </plugins>
-</pluginManagement>
+
 <plugins>
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
