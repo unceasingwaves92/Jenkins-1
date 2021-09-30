@@ -10,14 +10,7 @@
 	  <maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
 	
-<distributionManagement>
-<repository>
-	<id>corp1</id>
-	<name>Corporate Repository</name>
-	<url>file:///E:/Devops Bootcamp/karthik/mavenrepo</url>
-	
-</repository>
-</distrubutionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -40,15 +33,19 @@
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.0.0-M5</version>
-					<configuration>
-						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
-						</suiteXmlFiles>
-					</configuration>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>3.0.0-M1</version>
+					
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<plugins>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-deploy-plugin</artifactId>
+<version>3.0.0-M1</version>
+</plugin>
+</plugins>
+</build>
 	</build>
 </project>
